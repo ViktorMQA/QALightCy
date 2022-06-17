@@ -1,0 +1,25 @@
+{
+  "name": "qalightcy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:article": "cypress run --spec cypress/e2e/article.spec.js",
+    "cy:regression": "cypress run --spec **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorMQA/QALightCy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorMQA/QALightCy/issues"
+  },
+  "homepage": "https://github.com/ViktorMQA/QALightCy#readme",
+  "devDependencies": {    
+    "cypress": "^10.0.3",
+    "cypress-xpath": "^1.6.2"
+  }
+}
